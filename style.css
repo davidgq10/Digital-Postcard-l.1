@@ -1,5 +1,5 @@
   
-body {
+body{
 	background: black;
 }
 section{
@@ -7,31 +7,38 @@ section{
 }
 .postcard {
 	background: white;
-	width: 400px;
-	height: 300px;
+	width: 450px;
+	height: 350px;
     margin: auto;
     display: block;
 }
 .header{
-    width: 400px;display: inline;
+    width: 450px;display: inline;
 }
 img {
     width: 60px; height: auto; margin: 20px;float: right;
 }
 h1{
-    float: left;margin-top: 40px; margin-left: 20px;font-family: 'Indie Flower', cursive;
+    float: left;margin-top: 40px; margin-left: 20px;font-family: 'Gochi Hand', cursive;font-size: 30px;
 }
-.cuerpo, p{
-    margin: 15px;font-family: 'Coming Soon', cursive;; padding-left: 10px;
+.cuerpo{
+    margin: 0px 15px; font-family: 'Gochi Hand', cursive;
 }
 input{
-border-top: 0px none;
+  border-top: 0px none;
   border-right: 0px none;
   border-bottom: 1px solid gray;
   border-left: 0px none;
   margin: 10px;
+  width: 150px;
+  font-size: 17px;
+  font-family: 'Gochi Hand', cursive;
 }
 button{
   margin:auto;
   display:block;
+  font-family: 'Covered By Your Grace', cursive;
+}
+p{
+    font-size: 15px;
 }
