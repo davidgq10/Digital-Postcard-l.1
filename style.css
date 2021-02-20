@@ -1,0 +1,30 @@
+  
+body {
+	background: black;
+}
+section{
+    display: inline-flex;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+    margin: auto;
+    display: block;
+}
+.logo, img {
+    width: 40px; height: auto;float: right; margin: 10px 20px;
+}
+.titulo {
+   margin: 15px 5px; width: auto;
+}
+.logo{
+    float: right;
+}
+.cuerpo p{
+    margin: 15px;padding: 15px;
+}
+button{
+  margin:auto;
+  display:block;
+}
